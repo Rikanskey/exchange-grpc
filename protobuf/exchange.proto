@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package exchange;
 
-option go_package = "gw_exchange_grpc/";
+option go_package = "exchange.grpc";
 
 service ExchangeService {
   rpc GetExchangeRates(Empty) returns (ExchangeRatesResponse);

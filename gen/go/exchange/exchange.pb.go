@@ -4,7 +4,7 @@
 // 	protoc        v3.21.7
 // source: exchange.proto
 
-package gw_exchange_grpc
+package exchange_grpc
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -236,7 +236,7 @@ const file_exchange_proto_rawDesc = "" +
 	"\x05Empty2\xb0\x01\n" +
 	"\x0fExchangeService\x12D\n" +
 	"\x10GetExchangeRates\x12\x0f.exchange.Empty\x1a\x1f.exchange.ExchangeRatesResponse\x12W\n" +
-	"\x1aGetExchangeRateForCurrency\x12\x19.exchange.CurrencyRequest\x1a\x1e.exchange.ExchangeRateResponseB\x13Z\x11gw_exchange_grpc/b\x06proto3"
+	"\x1aGetExchangeRateForCurrency\x12\x19.exchange.CurrencyRequest\x1a\x1e.exchange.ExchangeRateResponseB\x0fZ\rexchange.grpcb\x06proto3"
 
 var (
 	file_exchange_proto_rawDescOnce sync.Once
