@@ -1,4 +1,4 @@
-module gihub.com/Rikanskey/exchange-grpc
+module github.com/Rikanskey/exchange-grpc
 
 go 1.24.7
 
